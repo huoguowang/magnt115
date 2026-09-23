@@ -134,7 +134,7 @@ class Api {
             .add("wp_path_id", "0")
             .build()
 
-        val req = authRequest("https://115.com/web/lixian/?ct=lixian&ac=add_task_url", cookie)
+        val req = authRequest("https://clouddownload.115.com/lixianssp/?ac=add_task_urls", cookie)
             .header("Origin", "https://115.com")
             .header("Referer", "https://115.com/?tab=offline&mode=wangpan")
             .header("X-Requested-With", "XMLHttpRequest")
